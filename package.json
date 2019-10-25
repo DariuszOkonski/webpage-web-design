@@ -1,0 +1,11 @@
+{
+  "name": "016-dazzdevwebdesign",
+  "version": "1.0.0",
+  "description": "Simple Web Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dariusz Okonski",
+  "license": "ISC"
+}
