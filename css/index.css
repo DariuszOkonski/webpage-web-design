@@ -97,6 +97,7 @@ body {
   font-size: 0.8rem;
   padding: 0.2rem 0.5rem;
   margin: 0 0.2rem;
+  cursor: pointer;
 }
 
 .header__link i {
@@ -119,5 +120,48 @@ body {
 
 .active {
   color: #E8491D;
+}
+
+.showcase {
+  min-height: 40vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/showcase.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem 0.2rem;
+  text-align: center;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.showcase__header {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.showcase__paragraph {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 1025px) {
+  .showcase__header {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .showcase__paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
 }
 /*# sourceMappingURL=index.css.map */
