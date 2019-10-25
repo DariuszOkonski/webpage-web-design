@@ -1,3 +1,4 @@
+// Header section ==============================
 .header_main {
   background-color: $bg-gray;
   color: $color-white;
@@ -9,7 +10,6 @@
   flex-direction: column;
   align-items: center;
 
-  // &__logo {}
 
   &__nav {
     .header__items {
@@ -35,7 +35,6 @@
     color: $color-orange;
   }
 
-  // &__item {}
 
   &__items {
     list-style: none;
@@ -50,6 +49,7 @@
     font-size: 0.8rem;
     padding: 0.2rem 0.5rem;
     margin: 0 0.2rem;
+    cursor: pointer;
 
     i {
       margin-right: 0.2rem;
@@ -75,4 +75,43 @@
 
 .active {
   color: $color-orange
+}
+
+// Showcase section ==============================
+.showcase {
+  min-height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem 0.2rem;
+
+  text-align: center;
+  color: $color-white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__header {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__paragraph {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  @media(min-width: 1025px) {
+    &__header {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__paragraph {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+  }
 }
