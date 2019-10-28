@@ -1,74 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>DazzDev Web Design | Home</title>
+  </head>
 
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/index.css">
-  <title>DazzDev Web Design | Home</title>
-</head>
+  <body>
+    <header class="header_main">
+      <section class="header container">
+        <section class="header__logo">
+          <h1 class="header__h1">
+            <span class="header__span">DazzDev</span> Web Design
+          </h1>
+        </section>
 
-<body>
-  <header class="header_main">
-    <section class="header container">
-
-      <section class="header__logo">
-        <h1 class="header__h1">
-          <span class="header__span">DazzDev</span> Web Design
-        </h1>
+        <nav class="header__nav">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="index.html" class="header__link active">
+                <i class="fa fa-home" aria-hidden="true"></i> home
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="about.html" class="header__link">
+                <i class="fa fa-info" aria-hidden="true"></i> about
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="services.html" class="header__link">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> services
+              </a>
+            </li>
+          </ul>
+        </nav>
       </section>
+    </header>
 
-      <nav class="header__nav">
-        <ul class="header__items">
-          <li class="header__item">
-            <a href="index.html" class="header__link active">
-            <i class="fa fa-home" aria-hidden="true"></i> home
-          </a>
-          </li>
-          <li class="header__item">
-            <a href="about.html" class="header__link">
-              <i class="fa fa-info" aria-hidden="true"></i> about
-            </a>
-          </li>
-          <li class="header__item">
-            <a href="services.html" class="header__link">
-            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> services
-          </a>
-          </li>
-        </ul>
-      </nav>
+    <main class="showcase">
+      <h2 class="showcase__header container">
+        Affordable Professional Web Design
+      </h2>
+      <p class="showcase__paragraph container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, optio
+        ad cum libero impedit est atque nulla ex saepe, temporibus totam officia
+        numquam blanditiis ipsum. Corporis magni ipsam facilis commodi.
+      </p>
+    </main>
+
+    <section class="subscribe_main">
+      <div class="subscribe container">
+        <p class="subscribe__paragraph">
+          Subscribe To Our Newsletter
+        </p>
+
+        <div class="subscribe__form">
+          <input
+            type="text"
+            class="subscribe__form--input"
+            placeholder="Enter email"
+          />
+          <button class="subscribe__form--button btn">Subscribe</button>
+        </div>
+      </div>
     </section>
 
-  </header>
-
-  <main class="showcase">
-    <h2 class="showcase__header container">
-      Affordable Professional Web Design
-    </h2>
-    <p class="showcase__paragraph container">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, optio ad cum libero impedit est atque nulla ex
-      saepe, temporibus totam officia numquam blanditiis ipsum. Corporis magni ipsam facilis commodi.
-    </p>
-  </main>
-
-  <section class="subscribe_main">
-
-    <div class="subscribe container">
-      <p class="subscribe__paragraph">
-        Subscribe To Our Newsletter
-      </p>
-
-      <div class="subscribe__form">
-        <input type="text" class="subscribe__form--input" placeholder="Enter email">
-        <button class="subscribe__form--button btn">Subscribe</button>
+    <section class="technology container">
+      <div class="technology__item">
+        <img src="img/logo_html.png" alt="html" />
+        <h3>HTML5 Markup</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae,
+          dolor.
+        </p>
       </div>
-    </div>
 
-  </section>
-</body>
+      <div class="technology__item">
+        <img src="img/logo_css.png" alt="css" />
+        <h3>CSS3 Styling</h3>
+        <p>
+          Incidunt repudiandae dignissimos est facere beatae ipsum quidem quam
+          id, voluptate sequi at excepturi, tenetur minus odit.
+        </p>
+      </div>
 
+      <div class="technology__item">
+        <img src="img/logo_brush.png" alt="brush" />
+        <h3>Graphic Design</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae,
+          dolor.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
