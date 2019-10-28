@@ -226,3 +226,25 @@
     }
   }
 }
+
+// Footer section ==============================
+.footer {
+  background-color: $bg-orange;
+  padding: 0.5rem;
+
+  &__paragraph {
+    text-align: center;
+    color: $color-white;
+    font-size: 0.8rem;
+    line-height: 40px;
+  }
+
+  @media(min-width: 1025px) {
+    padding: 1rem;
+
+    &__paragraph {
+      font-size: 1rem;
+      line-height: 80px;
+    }
+  }
+}
