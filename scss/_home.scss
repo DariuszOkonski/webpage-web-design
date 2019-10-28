@@ -10,14 +10,13 @@
   flex-direction: column;
   align-items: center;
 
-
   &__nav {
     .header__items {
       display: flex;
     }
   }
 
-  @media(min-width: 1025px) {
+  @media (min-width: 1025px) {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -35,11 +34,9 @@
     color: $color-orange;
   }
 
-
   &__items {
     list-style: none;
   }
-
 
   &__link {
     display: block;
@@ -56,7 +53,7 @@
     }
   }
 
-  @media(min-width: 1025px) {
+  @media (min-width: 1025px) {
     &__h1 {
       font-size: 2rem;
       margin: 1rem 0;
@@ -74,13 +71,14 @@
 }
 
 .active {
-  color: $color-orange
+  color: $color-orange;
 }
 
 // Showcase section ==============================
 .showcase {
   min-height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/showcase.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/showcase.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -103,7 +101,7 @@
     line-height: 1.4;
   }
 
-  @media(min-width: 1025px) {
+  @media (min-width: 1025px) {
     &__header {
       font-size: 3rem;
       margin-bottom: 1.5rem;
@@ -143,12 +141,10 @@
         margin: 0.2rem 0;
         padding: 0.5rem 0.2rem;
       }
-
     }
-
   }
 
-  @media(min-width: 1025px) {
+  @media (min-width: 1025px) {
     min-height: 10vh;
 
     .subscribe {
@@ -171,6 +167,61 @@
         &--button {
           padding: 0.5rem 1rem;
         }
+      }
+    }
+  }
+}
+
+// technology section ==============================
+
+.technology {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 0.5rem;
+
+    img {
+      display: block;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+    }
+
+    h3 {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  @media(min-width: 1025px) {
+    flex-direction: row;
+
+    &__item {
+      width: 33%;
+      padding: 1rem;
+
+      img {
+        width: 120px;
+        height: 120px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.6rem;
       }
     }
   }
