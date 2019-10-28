@@ -1,0 +1,59 @@
+// Footer section ==============================
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+
+
+  &__main,
+  &__aside {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      font-size: 1rem;
+    }
+
+
+  }
+
+  &__paragraph {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    padding: 0.5rem;
+
+    &--gray {
+      background-color: $bg-gray;
+      color: $color-white;
+    }
+  }
+
+  @media(min-width: 1025px) {
+    flex-direction: row;
+    min-height: 70vh;
+    padding: 5rem 0;
+
+    &__main {
+      width: 70%;
+    }
+
+    &__aside {
+      width: 30%;
+    }
+
+    &__main,
+    &__aside {
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__paragraph {
+      font-size: 1rem;
+      line-height: 1.6rem;
+      margin: 1rem 1.4rem;
+    }
+  }
+}
