@@ -300,4 +300,26 @@ body {
     line-height: 1.6rem;
   }
 }
+
+.footer {
+  background-color: #E8491D;
+  padding: 0.5rem;
+}
+
+.footer__paragraph {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  line-height: 40px;
+}
+
+@media (min-width: 1025px) {
+  .footer {
+    padding: 1rem;
+  }
+  .footer__paragraph {
+    font-size: 1rem;
+    line-height: 80px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
