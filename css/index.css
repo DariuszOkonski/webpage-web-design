@@ -379,4 +379,114 @@ body {
     margin: 1rem 1.4rem;
   }
 }
+
+.services-all {
+  padding: 0.2rem;
+}
+
+.services-all .services-left,
+.services-all .services-right {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.services-all .services-left__header,
+.services-all .services-right__header {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.services-all .services-left .services {
+  border: 1px solid #35424A;
+  background-color: #ccc;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.services-all .services-left .services__header {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services-all .services-left .services__paragraph {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.services-all .services-left .services__paragraph span {
+  font-weight: bold;
+}
+
+.services-all .services-right {
+  color: #FFFFFF;
+}
+
+.services-all .services-right__bg {
+  background-color: #35424A;
+  padding: 1rem;
+}
+
+.services-all .services-right .form label,
+.services-all .services-right .form input,
+.services-all .services-right .form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.services-all .services-right .form__btn {
+  width: 100%;
+  margin: 0.2rem 0;
+  padding: 0.5rem 0.2rem;
+}
+
+.services-all .services-right .form textarea {
+  min-height: 100px;
+}
+
+@media (min-width: 1025px) {
+  .services-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .services-all .services-left {
+    width: 70%;
+  }
+  .services-all .services-left .services {
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  .services-all .services-left .services__header {
+    font-size: 1.2rem;
+  }
+  .services-all .services-left .services__paragraph {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  .services-all .services-right {
+    width: 30%;
+    margin-top: 3.4rem;
+  }
+  .services-all .services-right .form label,
+  .services-all .services-right .form input,
+  .services-all .services-right .form textarea {
+    padding: 0.2rem;
+    font-size: 1rem;
+  }
+  .services-all .services-right .form__btn {
+    display: inline-block;
+    width: 100px;
+    margin: 0.2rem 0;
+    padding: 0.5rem 0.2rem;
+  }
+  .services-all .services-right .form textarea {
+    min-height: 100px;
+  }
+  .services-all .services-left__header,
+  .services-all .services-right__header {
+    font-size: 1.2rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
